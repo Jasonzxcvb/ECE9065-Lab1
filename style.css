@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    margin: 2em auto;
+    max-width: 1200px;
+    padding: 1em;
+}
+
+/* Homepage and Brand List */
+.brands {
+    text-align: center;
+}
+
+.brand-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.brand-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.brand-card img {
+    max-width: 100%;
+    height: auto;
+}
