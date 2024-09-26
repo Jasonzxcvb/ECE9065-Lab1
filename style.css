@@ -115,3 +115,44 @@ main {
 .buy-button:hover {
     background-color: #0056b3;
 }
+
+/* Accessories Page Styling */
+.accessories-section {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.accessory-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.accessory-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 220px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.accessory-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.accessory-item h3 {
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+.accessory-item p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 1em;
+}
